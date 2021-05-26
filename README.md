@@ -2,4 +2,4 @@
 
 [$] 5 Tech G : Clinic Application (Web-Devlopement) 💻
 
-![Screenshot](bg.png)
+![Screenshot](bg.PNG)
