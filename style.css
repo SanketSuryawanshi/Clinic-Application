@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+nav .navbar-brand {
+    text-decoration: none;
+    /*color: #3498db !important;*/
+    color: black;
+    font-size: 21px;
+    /*font-weight: bold !important;*/
+    margin-left: 1rem;
+}
+
+nav #navbarSupportedContent ul li.active {
+    font-weight: bold;
+    color: #2c4964;
+    font-size: 21px;
+
+}
+
+nav .navbar-collapse ul li a:hover {
+    color: ;
+    font-weight: bold;
+    background-color: #3498db !important;
+
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner .info_div {
+    padding: 70px;
+    margin-bottom: 3rem;
+}
+
+.banner .info_div h1 {
+    font-weight: bold;
+}
+
+.banner .info_div p {
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.banner .info_div span {
+    color: #3498db;
+}
+
+.banner .info_div .button_div {
+    margin: 50px 0;
+}
+
+.banner .info_div .button_div button {
+    width: 220px;
+    transition: 0.5s;
+}
+
+.banner .info_div .button_div button:hover {
+    transform: translateY(-10px);
+}
+
+.banner .info_div .button_div button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+#counts {
+    background: #d8ecff;
+    padding: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counts .row .co {
+    display: flex;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#counts .count-box {
+    width: 200px;
+    height: 170px;
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#counts .count-box span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#counts .count-box i {
+    background: #3498db;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
+
+.social-links a:hover {
+    transform: translateY(-10px);
+}
+
+#Why_Choosse h1 {
+    text-align: center;
+}
+
+#Why_Choosse hr {
+    position: relative;
+    left: 30%;
+}
+
+#Why_Choosse .container {
+    margin-top: 5rem;
+}
+
+#Why_Choosse .container .row .ldiv {
+    padding: 30px;
+    background: #d8ecff;
+}
+
+
+.services {
+    margin-top: 4rem 0;
+    text-align: center;
+}
+
+.service{
+    margin-bottom: 5rem;
+}
+
+
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.col{
+    box-shadow:0 10px 25px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+    .banner .info_div {
+        padding: 25px;
+    }
+    .banner .info_div h1 {
+        font-size: 2rem;
+    }
+    .banner .info_div p {
+        font-size: 0.96rem;
+    }
+    #counts {
+        height: auto;
+    }
+    .banner .info_div .button_div button:nth-child(2) {
+        margin-left: 0rem !important;
+        margin-top: 1.5rem;
+    }
+    .social-links a {
+        margin-right: 1.9rem!important;
+    }
+    #Why_Choosse h1 {
+        font-size: 2rem;
+    }
+    #Why_Choosse hr {
+        width: 40%;
+        left: 18%;
+    }
+    #Why_Choosse .container .row .ldiv h5{
+        font-size: 1.1rem;
+    }
+    #Why_Choosse .container .row .ldiv {
+        padding: 30px;
+        background: #d8ecff;
+    }
+    #Why_Choosse .container .row{
+        padding: 30px;
+    }
+    #Why_Choosse .container .row .rdiv{
+        margin-top: 3rem;
+    }
+    #Why_Choosse .container .row .rdiv .img_div img{
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+    }
+    #Why_Choosse{
+        margin-bottom: 15rem;
+    }
+    #Why_Choosse .container {
+        margin-top: 0rem;
+    }
+}
+
+/*------------- Footer-------------------------- */
+
